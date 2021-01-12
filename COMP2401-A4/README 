@@ -1,0 +1,26 @@
+README
+Ece Yaykiran
+101101184
+
+Files Included:
+  mazes.c
+  mazeDisplay.c
+  mazeDisplay.h
+  graphSet.h
+  makefile
+
+Instructions to compile:
+  Open terminal
+  Type make to run the makefile containing compile information
+
+Instructions to run:
+  valgrind --leak-check=full ./mazes
+  OR
+  ./mazes
+
+Note: Mazes code works (performs functions necessary) and all allocs are freed
+however running on some occasions brings forth errors even though the performance is
+correct. I spent over 24 hours trying to debug the program so it has no errors always
+but the errors, if they come up were not helpful to debug it is always invalid read of sizeof 4
+at one line(cleanUpGraphRecursive) but I debugged that function many times. So if errors come
+up upon running I did my best. 
